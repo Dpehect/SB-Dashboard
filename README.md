@@ -44,22 +44,20 @@ Integrated using Nodemailer for real verification emails, demonstrating deep com
 
 ## Türkçe Bölüm
 
-Selam! Bu proje aslında sadece bir kod yığını değil; bir işletmenin dijital dünyadaki kalbi olması için tasarlandı. İsmini **SB Database** koydum çünkü verinin gücüyle işletmelerin nasıl daha akıllı yönetilebileceğini göstermek istedim. Tasarımdan koda kadar her satırda, "Bir yazılım sadece çalışmamalı, aynı zamanda ilham vermeli" felsefesini takip ettim.
+SB Database, verinin karmaşasını sadeleştirmek ve işletme yönetimini modern bir deneyime dönüştürmek için geliştirdiğim bir yönetim panelidir. Bu projeyi hazırlarken odak noktam, sadece bir "dashboard" yapmak değil; bir firmanın günlük operasyonlarını en akıcı ve en şık şekilde yürütebileceği bir dijital çalışma alanı kurgulamaktı.
 
-### Neden SB Database?
-Geleneksel panellerin o soğuk ve karmaşık yapısından çok sıkıldım. Bu yüzden SB Database'i kurarken modern e-ticaret dünyasının hızına ayak uyduracak, firmaların stoklarını ve siparişlerini yönetirken keyif alacakları bir yer inşa etmeyi amaçladım. İşletme sahiplerinin veriler arasında boğulmak yerine, kararlarını saniyeler içinde alabildikleri, her detayın elinin altında olduğu bir komuta merkezi hayal ettim.
+### Neden Bu Projeyi Geliştirdim?
+E-ticaret ve işletme yönetimi süreçleri genellikle yorucu ve karmaşık arayüzlerle doludur. SB Database'i geliştirirken bu karmaşayı, Apple'ın sadeliği ve Stripe'ın teknik disipliniyle çözmeyi amaçladım. Firmaların stoklarını, siparişlerini ve müşteri verilerini yönetirken teknik bir araçtan ziyade, iş akışlarını kolaylaştıran modern bir asistanla çalışıyormuş gibi hissetmelerini istedim.
 
-### Neler Kullandım?
-Teknik olarak "en iyisi neyse o" mantığıyla ilerledim. Next.js 15 ve React 19 gibi en güncel yapıları kullanarak hızdan ödün vermedim. Tailwind CSS 4 ile tasarımı sıfırdan dokudum. Arka plandaki o akışkan animasyonlar ve Apple tarzı şeffaflıklar, projenin sadece bir "dashboard" değil, bir "deneyim" olmasını sağlıyor. Ayrıca, sunucu tarafında çalışan gerçek bir mail doğrulama sistemiyle güvenliği en baştan sağlama aldım.
+### Teknik Yaklaşım ve Kararlar
+Bir Full Stack geliştirici olarak projede performans ve güncelliği ön planda tuttum. Next.js 15 ve React 19'un sunduğu yeni yetenekleri kullanarak hem sunucu tarafındaki yükü azalttım hem de kullanıcı arayüzündeki tepkiselliği en üst seviyeye çıkardım. Tasarımda kullandığım Tailwind CSS 4 ve Framer Motion animasyonları, kullanıcıya arayüzle etkileşime geçtiği her an "yaşayan bir sistem" hissi vermeyi hedefliyor. Ayrıca, Nodemailer üzerinden kurduğum gerçek SMTP altyapısı ile sistemin sadece bir görselden ibaret olmadığını, üretime (production) hazır bir yapı sunduğunu göstermek istedim.
 
-### Bu Proje Ne Anlatıyor?
-Bir Full Stack geliştirici olarak sadece "kod yazmayı" değil, bir problemi en şık ve en verimli şekilde nasıl çözebileceğimi anlatıyor. Kodun arkasındaki o ince düşünülmüş mimari, İK ve teknik liderler için hazırladığım bu vitrinin en değerli parçası. 
+### Vizyon
+SB Database, iyi yazılmış bir kodun ne kadar estetik durabileceğinin ve doğru kurgulanmış bir mimarinin bir işletmeye nasıl değer katabileceğinin somut bir örneğidir. Geliştirme sürecinde sadece fonksiyonelliğe değil, tipografiden mikro animasyonlara kadar her detayın kullanıcı psikolojisi üzerindeki etkisine odaklandım.
 
-SB Database, bir yazılımcının tutkusunun ve işletmelerin dijital geleceğinin birleştiği noktadır.
+### Kurulum ve Çalıştırma
 
-### Nasıl Çalıştırılır?
-
-1. Projeyi bilgisayarınıza indirin
-2. `npm install` ile gerekli paketleri kurun
-3. `.env.local` dosyası oluşturup Gmail bilgilerinizi ekleyin
-4. `npm run dev` diyerek bu deneyimi başlatın
+1. Repoyu klonlayın.
+2. `npm install` komutu ile bağımlılıkları yükleyin.
+3. `.env.local` dosyasına e-posta yapılandırmalarınızı ekleyin.
+4. `npm run dev` ile projeyi yerel ortamda başlatın.
