@@ -6,6 +6,9 @@
 
 This project is a professional management dashboard developed to push the boundaries of modern web technologies and elevate user experience. Aiming to strike a perfect balance between aesthetics and functionality, this work reflects a Full Stack developer's technical vision and attention to detail.
 
+### Project Purpose
+Horizon is designed as a high-performance ecosystem where modern businesses and e-commerce firms can manage their entire operational workflow. The primary goal is to provide companies—from ambitious startups to established SMEs—with a data-driven command center. By centralizing product management, order tracking, and sales analytics into a single, visionary interface, Horizon enables businesses to make faster decisions, optimize inventory, and provide a seamless brand experience for their internal teams. It is built to handle the complexities of modern commerce while maintaining the simplicity of a premium digital product.
+
 ### Technical Stack
 The project architecture is built on the latest tools focused on performance and scalability, incorporating every essential modern Full Stack development pattern.
 
@@ -45,6 +48,9 @@ Everything required for a modern Full Stack Next/React developer—from architec
 ## Türkçe Versiyon
 
 Bu proje, modern web teknolojilerinin sınırlarını zorlamak ve kullanıcı deneyimini en üst seviyeye taşımak amacıyla geliştirilmiş, profesyonel bir yönetim panelidir. Hem estetik hem de fonksiyonel olarak kusursuz bir denge kurmayı hedefleyen bu çalışma, bir Full Stack geliştiricinin teknik vizyonunu ve detaylara verdiği önemi yansıtmaktadır.
+
+### Proje Amacı
+Horizon, modern işletmelerin ve e-ticaret firmalarının tüm operasyonel iş akışlarını yönetebilecekleri yüksek performanslı bir ekosistem olarak tasarlanmıştır. Temel hedef, gelecek vadeden girişimlerden yerleşik KOBİ'lere kadar tüm şirketlere veri odaklı bir komuta merkezi sunmaktır. Ürün yönetimi, sipariş takibi ve satış analizlerini tek bir vizyoner arayüzde merkezileştiren Horizon; işletmelerin daha hızlı karar almasını, stoklarını optimize etmesini ve kurum içi ekipleri için kusursuz bir marka deneyimi sağlamasını mümkün kılar. Modern ticaretin karmaşıklığını, premium bir dijital ürünün sadeliğiyle yönetmek için inşa edilmiştir.
 
 ### Teknik Stack
 Proje mimarisi, performans ve ölçeklenebilirlik odaklı en güncel araçlar üzerine kurulmuş olup, modern bir Full Stack geliştiricinin ihtiyaç duyduğu tüm temel desenleri içerir.
