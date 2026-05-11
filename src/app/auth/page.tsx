@@ -95,12 +95,6 @@ export default function CombinedAuthPage() {
               <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-[#C5A059]/5 to-transparent rounded-bl-full" />
 
               <div className="mb-14">
-                <div className="flex items-center gap-3 mb-6">
-                  <div className="h-px w-8 bg-[#C5A059]" />
-                  <span style={{ fontFamily: "var(--font-serif)" }} className="text-[#C5A059] italic text-lg">
-                    {mode === "login" ? "The Return" : "The Genesis"}
-                  </span>
-                </div>
                 <h1 style={{ fontFamily: "var(--font-serif)" }} className="text-[#1A1A1A] text-5xl font-light tracking-tight mb-4">
                   {mode === "login" ? "Oturum Açın" : "Hesap Oluştur"}
                 </h1>
