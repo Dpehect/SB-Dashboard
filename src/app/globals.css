@@ -1,26 +1,113 @@
 @import "tailwindcss";
 
+@theme {
+  /* Apple Colors */
+  --color-apple-blue: #007AFF;
+  --color-apple-gray: #8E8E93;
+  --color-apple-bg: #F5F5F7;
+  
+  --color-brand-50: #F5F5F7;
+  --color-brand-500: #007AFF;
+  
+  --color-secondary-grey-300: #E5E5EA;
+  --color-secondary-grey-400: #AEAEB2;
+  --color-secondary-grey-700: #1D1D1F;
+  --color-secondary-grey-900: #000000;
+
+  --color-success: #34C759;
+  --color-warning: #FF9500;
+  --color-error: #FF3B30;
+
+  /* Shadows - Extremely subtle */
+  --shadow-soft: 0px 4px 12px rgba(0, 0, 0, 0.03);
+  --shadow-card: 0px 2px 8px rgba(0, 0, 0, 0.02);
+
+  /* Border Radius - Apple style */
+  --radius-2xl: 14px;
+  --radius-3xl: 20px;
+
+  /* Typography */
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F5F5F7;
+  --foreground: #1D1D1F;
+  --card-bg: #FFFFFF;
+  --sidebar-bg: rgba(245, 245, 247, 0.8);
+  --text-secondary: #8E8E93;
+  --border-subtle: rgba(0, 0, 0, 0.05);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #000000;
+  --foreground: #F5F5F7;
+  --card-bg: #1C1C1E;
+  --sidebar-bg: rgba(28, 28, 30, 0.8);
+  --text-secondary: #8E8E93;
+  --border-subtle: rgba(255, 255, 255, 0.1);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.011em;
 }
+
+/* Apple Glassmorphism - Visionary Style */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(40px) saturate(180%);
+    -webkit-backdrop-filter: blur(40px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.02);
+  }
+  
+  .dark .glass {
+    background: rgba(28, 28, 30, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mesh-gradient {
+    background-color: #F5F5F7;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(0, 122, 255, 0.08) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(52, 199, 89, 0.08) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(255, 149, 0, 0.08) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(255, 59, 48, 0.08) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+.visionary-title {
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--foreground);
+}
+
+.visionary-alt {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+}
+
+@keyframes mesh {
+  0% { transform: scale(1) translate(0, 0); }
+  33% { transform: scale(1.1) translate(2%, 2%); }
+  66% { transform: scale(0.9) translate(-2%, 1%); }
+  100% { transform: scale(1) translate(0, 0); }
+}
+
+.animate-mesh {
+  animation: mesh 20s ease-in-out infinite;
+}
+
+
+
+
