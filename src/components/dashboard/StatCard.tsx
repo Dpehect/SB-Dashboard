@@ -9,6 +9,7 @@ interface StatCardProps {
   icon: ReactNode;
   trend?: string;
   trendType?: "up" | "down";
+  delay?: number;
   className?: string;
 }
 

@@ -8,7 +8,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = "primary", size = "md", ...props }, ref) => {
-    const variants = {
+    const variants: Record<NonNullable<ButtonProps["variant"]>, string> = {
       primary: "bg-apple-blue text-white hover:opacity-90 active:scale-[0.98] shadow-sm",
       secondary: "bg-apple-gray/10 text-apple-blue hover:bg-apple-gray/20 dark:bg-white/10 dark:text-white",
       ghost: "bg-transparent text-apple-gray hover:bg-apple-gray/5 dark:hover:bg-white/5",
