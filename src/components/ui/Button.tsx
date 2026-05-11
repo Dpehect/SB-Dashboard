@@ -1,14 +1,16 @@
 import { ButtonHTMLAttributes, forwardRef } from "react";
 import { cn } from "@/lib/utils";
 
+export type ButtonVariant = "primary" | "secondary" | "ghost" | "danger" | "success" | "none";
+
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "ghost" | "danger" | "success" | "none";
+  variant?: ButtonVariant;
   size?: "sm" | "md" | "lg";
 }
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = "primary", size = "md", ...props }, ref) => {
-    const variants: Record<NonNullable<ButtonProps["variant"]>, string> = {
+    const variants: Record<ButtonVariant, string> = {
       primary: "bg-apple-blue text-white hover:opacity-90 active:scale-[0.98] shadow-sm",
       secondary: "bg-apple-gray/10 text-apple-blue hover:bg-apple-gray/20 dark:bg-white/10 dark:text-white",
       ghost: "bg-transparent text-apple-gray hover:bg-apple-gray/5 dark:hover:bg-white/5",
@@ -19,7 +21,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
 
     const sizes = {
       sm: "h-9 px-4 text-sm",
-      md: "h-11 px-6 text-[15px]", // ~44px height
+      md: "h-11 px-6 text-[15px]",
       lg: "h-14 px-8 text-base",
     };
 
