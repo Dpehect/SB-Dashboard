@@ -1,13 +1,13 @@
-# Horizon E-Commerce Dashboard
+# SB Database
 
 ---
 
 ## English Version
 
-This project is a professional management dashboard developed to push the boundaries of modern web technologies and elevate user experience. Aiming to strike a perfect balance between aesthetics and functionality, this work reflects a Full Stack developer's technical vision and attention to detail.
+SB Database is a professional management ecosystem developed to push the boundaries of modern web technologies and elevate user experience for e-commerce enterprises. This project strikes a perfect balance between high-end aesthetics and industrial functionality, reflecting a Full Stack developer's technical vision and commitment to product excellence.
 
 ### Project Purpose
-Horizon is designed as a high-performance ecosystem where modern businesses and e-commerce firms can manage their entire operational workflow. The primary goal is to provide companies—from ambitious startups to established SMEs—with a data-driven command center. By centralizing product management, order tracking, and sales analytics into a single, visionary interface, Horizon enables businesses to make faster decisions, optimize inventory, and provide a seamless brand experience for their internal teams. It is built to handle the complexities of modern commerce while maintaining the simplicity of a premium digital product.
+SB Database is designed as a high-performance command center where modern firms and e-commerce brands can manage their entire operational workflow. The primary goal is to provide businesses—from scaling startups to established SMEs—with a data-driven environment. By centralizing inventory management, order tracking, and sales analytics into a single, visionary interface, SB Database enables companies to make faster decisions and optimize their growth. It is built to handle the complexities of modern commerce with the simplicity and elegance of a premium digital product.
 
 ### Technical Stack
 The project architecture is built on the latest tools focused on performance and scalability, incorporating every essential modern Full Stack development pattern.
@@ -23,13 +23,13 @@ The project architecture is built on the latest tools focused on performance and
 ### Key Features
 
 **Production-Ready Auth System**
-A robust authentication system including Login, Register, Forgot Password, and real-time OTP (One-Time Password) verification. The flow is built using Next.js Server Actions for secure server-side processing, paired with an innovative UI that handles mode transitions seamlessly via Framer Motion.
+A robust authentication system including Login, Register, Forgot Password, and real-time OTP verification. Built with Next.js Server Actions for secure processing and an innovative UI for seamless transitions.
 
 **Visionary UI/UX Engineering**
-The project features a high-end interface blending Apple’s minimalism with Stripe’s geometric precision. It includes complex background layering (skew-y), dynamic animated orbs, and advanced glassmorphism. Every hit-target is optimized for accessibility (44px standard) ensuring a true mobile-first experience.
+A high-end interface blending Apple’s minimalism with Stripe’s geometric precision. Includes skew-y layering, dynamic animated orbs, and advanced glassmorphism.
 
 **Full Stack Gmail SMTP Integration**
-A complete email delivery engine is integrated using Nodemailer. It handles real verification emails sent through Gmail SMTP, demonstrating a deep understanding of environment variables, security protocols, and backend communication.
+Integrated using Nodemailer for real verification emails, demonstrating deep competence in environment variables and security protocols.
 
 ### Installation
 
@@ -40,48 +40,26 @@ A complete email delivery engine is integrated using Nodemailer. It handles real
    * `EMAIL_PASS`: Your Gmail App Password
 4. Run the app: `npm run dev`
 
-### Conclusion
-Everything required for a modern Full Stack Next/React developer—from architecture to UI polish and backend integrations—is implemented in this project. It is not just a demo, but a showcase of production-level engineering and product vision.
-
 ---
 
-## Türkçe Versiyon
+## Türkçe Bölüm
 
-Bu proje, modern web teknolojilerinin sınırlarını zorlamak ve kullanıcı deneyimini en üst seviyeye taşımak amacıyla geliştirilmiş, profesyonel bir yönetim panelidir. Hem estetik hem de fonksiyonel olarak kusursuz bir denge kurmayı hedefleyen bu çalışma, bir Full Stack geliştiricinin teknik vizyonunu ve detaylara verdiği önemi yansıtmaktadır.
+Selam! Bu proje aslında sadece bir kod yığını değil; bir işletmenin dijital dünyadaki kalbi olması için tasarlandı. İsmini **SB Database** koydum çünkü verinin gücüyle işletmelerin nasıl daha akıllı yönetilebileceğini göstermek istedim. Tasarımdan koda kadar her satırda, "Bir yazılım sadece çalışmamalı, aynı zamanda ilham vermeli" felsefesini takip ettim.
 
-### Proje Amacı
-Horizon, modern işletmelerin ve e-ticaret firmalarının tüm operasyonel iş akışlarını yönetebilecekleri yüksek performanslı bir ekosistem olarak tasarlanmıştır. Temel hedef, gelecek vadeden girişimlerden yerleşik KOBİ'lere kadar tüm şirketlere veri odaklı bir komuta merkezi sunmaktır. Ürün yönetimi, sipariş takibi ve satış analizlerini tek bir vizyoner arayüzde merkezileştiren Horizon; işletmelerin daha hızlı karar almasını, stoklarını optimize etmesini ve kurum içi ekipleri için kusursuz bir marka deneyimi sağlamasını mümkün kılar. Modern ticaretin karmaşıklığını, premium bir dijital ürünün sadeliğiyle yönetmek için inşa edilmiştir.
+### Neden SB Database?
+Geleneksel panellerin o soğuk ve karmaşık yapısından çok sıkıldım. Bu yüzden SB Database'i kurarken modern e-ticaret dünyasının hızına ayak uyduracak, firmaların stoklarını ve siparişlerini yönetirken keyif alacakları bir yer inşa etmeyi amaçladım. İşletme sahiplerinin veriler arasında boğulmak yerine, kararlarını saniyeler içinde alabildikleri, her detayın elinin altında olduğu bir komuta merkezi hayal ettim.
 
-### Teknik Stack
-Proje mimarisi, performans ve ölçeklenebilirlik odaklı en güncel araçlar üzerine kurulmuş olup, modern bir Full Stack geliştiricinin ihtiyaç duyduğu tüm temel desenleri içerir.
+### Neler Kullandım?
+Teknik olarak "en iyisi neyse o" mantığıyla ilerledim. Next.js 15 ve React 19 gibi en güncel yapıları kullanarak hızdan ödün vermedim. Tailwind CSS 4 ile tasarımı sıfırdan dokudum. Arka plandaki o akışkan animasyonlar ve Apple tarzı şeffaflıklar, projenin sadece bir "dashboard" değil, bir "deneyim" olmasını sağlıyor. Ayrıca, sunucu tarafında çalışan gerçek bir mail doğrulama sistemiyle güvenliği en baştan sağlama aldım.
 
-*   **Framework:** Next.js 15 (App Router) & React 19
-*   **Styling:** Tailwind CSS 4 (Native/Performans odaklı)
-*   **Animasyonlar:** Framer Motion (Yay dinamiği & Layout geçişleri)
-*   **Form Yönetimi:** React Hook Form & Zod Validasyonu
-*   **Backend Entegrasyonu:** Server Actions & Node.js SMTP
-*   **State Yönetimi:** React Context & Hooks (useState, useEffect, useRef)
-*   **Tasarım Dili:** Visionary UI (Apple & Stripe tasarım sistemleri)
+### Bu Proje Ne Anlatıyor?
+Bir Full Stack geliştirici olarak sadece "kod yazmayı" değil, bir problemi en şık ve en verimli şekilde nasıl çözebileceğimi anlatıyor. Kodun arkasındaki o ince düşünülmüş mimari, İK ve teknik liderler için hazırladığım bu vitrinin en değerli parçası. 
 
-### Öne Çıkan Özellikler
+SB Database, bir yazılımcının tutkusunun ve işletmelerin dijital geleceğinin birleştiği noktadır.
 
-**Üretime Hazır Auth Sistemi**
-Login, Register, Şifremi Unuttum ve gerçek zamanlı OTP doğrulamasını içeren sağlam bir kimlik doğrulama sistemi. Akış, güvenli sunucu tarafı işlemleri için Next.js Server Actions kullanılarak oluşturulmuş ve Framer Motion aracılığıyla pürüzsüz geçişler sağlayan inovatif bir kullanıcı arayüzü ile eşleştirilmiştir.
+### Nasıl Çalıştırılır?
 
-**Vizyoner UI/UX Mühendisliği**
-Proje, Apple'ın minimalizmi ile Stripe'ın geometrik hassasiyetini harmanlayan üst düzey bir arayüz sunar. Karmaşık arka plan katmanları (skew-y), dinamik hareketli küreler ve gelişmiş glassmorphism efektleri içerir. Tüm tıklama alanları erişilebilirlik (44px standardı) için optimize edilerek gerçek bir mobil öncelikli deneyim sağlanmıştır.
-
-**Full Stack Gmail SMTP Entegrasyonu**
-Nodemailer kullanılarak tam teşekküllü bir e-posta gönderim motoru entegre edilmiştir. Gmail SMTP üzerinden gönderilen gerçek doğrulama e-postalarını yöneterek; çevresel değişkenler, güvenlik protokolleri ve backend iletişimi konusundaki derin yetkinliği sergiler.
-
-### Kurulum
-
-1. Depoyu klonlayın
-2. Bağımlılıkları yükleyin: `npm install`
-3. Çevresel değişkenleri `.env.local` dosyasına ekleyin:
-   * `EMAIL_USER`: Gmail adresiniz
-   * `EMAIL_PASS`: Gmail uygulama şifreniz
-4. Uygulamayı çalıştırın: `npm run dev`
-
-### Sonuç
-Modern bir Full Stack Next/React geliştiricisi için gereken her şey; mimariden arayüz detaylarına ve backend entegrasyonlarına kadar bu projede uygulanmıştır. Bu sadece bir demo değil, üretim seviyesindeki mühendislik ve ürün vizyonunun bir sergisidir.
+1. Projeyi bilgisayarınıza indirin
+2. `npm install` ile gerekli paketleri kurun
+3. `.env.local` dosyası oluşturup Gmail bilgilerinizi ekleyin
+4. `npm run dev` diyerek bu deneyimi başlatın

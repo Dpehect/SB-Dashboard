@@ -10,8 +10,8 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
-  title: "Horizon UI Dashboard",
-  description: "Modern Dashboard built with Next.js 15 and React 19",
+  title: "SB Database",
+  description: "Next-generation business management and analytics platform.",
 };
 
 export default function RootLayout({

@@ -79,7 +79,7 @@ export function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose: () => v
                <div className="h-4 w-4 rounded-full border-2 border-white" />
             </div>
             <span className="text-xl font-bold tracking-tight text-secondary-grey-900 dark:text-white">
-              Dashboard
+              SB Database
             </span>
           </div>
           <button 

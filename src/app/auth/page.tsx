@@ -94,7 +94,7 @@ export default function CombinedAuthPage() {
                   {mode === "login" ? "Hoş Geldiniz" : "Hesap Oluştur"}
                 </h1>
                 <p className="text-[#4f566b] text-lg font-medium leading-relaxed">
-                  {mode === "login" ? "İşletmenizi yönetmeye hemen başlayın." : "Horizon ekosistemine ilk adımı atın."}
+                  {mode === "login" ? "İşletmenizi yönetmeye hemen başlayın." : "SB Database ekosistemine ilk adımı atın."}
                 </p>
               </div>
 
@@ -126,7 +126,7 @@ export default function CombinedAuthPage() {
                   <div className="flex justify-between items-center px-1">
                     <label className="text-[13px] font-bold uppercase tracking-wider text-[#1a1f36]">Şifre</label>
                     {mode === "login" && (
-                      <Link href="/auth/forgot-password" size="sm" className="text-sm font-bold text-[#635bff] hover:text-[#4318ff] transition-colors">
+                      <Link href="/auth/forgot-password" className="text-sm font-bold text-[#635bff] hover:text-[#4318ff] transition-colors">
                         Şifremi Unuttum
                       </Link>
                     )}
@@ -218,7 +218,7 @@ function OTPView({ email, onComplete }: { email: string, onComplete: () => void 
           {otp.map((digit, i) => (
             <input
               key={i}
-              ref={el => (inputRefs.current[i] = el)}
+              ref={el => { inputRefs.current[i] = el }}
               type="text"
               inputMode="numeric"
               maxLength={1}

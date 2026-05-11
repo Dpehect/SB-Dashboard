@@ -30,8 +30,8 @@ export default function OrdersPage() {
   const getStatusVariant = (status: string) => {
     switch (status) {
       case "Teslim Edildi": return "success";
-      case "Yolda": return "primary";
-      case "Hazırlanıyor": return "warning";
+      case "Yolda": return "warning";
+      case "Hazırlanıyor": return "default";
       default: return "default";
     }
   };

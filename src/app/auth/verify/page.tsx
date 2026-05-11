@@ -5,6 +5,7 @@ import { AuthLayout } from "@/components/layout/AuthLayout";
 import { Button } from "@/components/ui/Button";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { Mail } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 export default function VerifyPage() {
@@ -81,7 +82,7 @@ export default function VerifyPage() {
             {otp.map((digit, index) => (
               <input
                 key={index}
-                ref={el => (inputRefs.current[index] = el)}
+                ref={el => { inputRefs.current[index] = el }}
                 type="text"
                 inputMode="numeric"
                 maxLength={1}

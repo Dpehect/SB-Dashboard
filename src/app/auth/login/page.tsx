@@ -51,7 +51,7 @@ export default function LoginPage() {
           <h1 className="visionary-title text-4xl mb-3 tracking-tighter">Tekrar Hoş Geldiniz</h1>
           <p className="text-apple-gray font-medium tracking-wide flex items-center justify-center gap-2">
             <Sparkles size={14} className="text-apple-blue" />
-            Horizon'un geleceğine adım atın
+            SB Database'in geleceğine adım atın
           </p>
         </div>
 
@@ -69,7 +69,7 @@ export default function LoginPage() {
           <div className="space-y-2">
             <div className="flex justify-between items-center px-1">
               <label className="text-xs font-bold uppercase tracking-widest text-apple-gray">Şifre</label>
-              <Link href="/auth/forgot-password" size="sm" className="text-xs font-bold text-apple-blue hover:opacity-70 transition-opacity">
+              <Link href="/auth/forgot-password" className="text-xs font-bold text-apple-blue hover:opacity-70 transition-opacity">
                 Şifremi Unuttum
               </Link>
             </div>
