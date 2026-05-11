@@ -65,19 +65,6 @@ export default function CombinedAuthPage() {
       {/* 2. Main Container */}
       <main className="relative z-10 flex flex-col items-center justify-center pt-16 pb-24 px-6 min-h-screen">
         
-        {/* Branding Accent */}
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="mb-12 text-center"
-        >
-          <span style={{ fontFamily: "var(--font-signature)" }} className="text-6xl text-[#C5A059] block mb-[-15px]">
-            SB Database
-          </span>
-          <span className="text-[10px] uppercase tracking-[0.4em] text-white/40 font-bold">
-            Editorial Management Suite
-          </span>
-        </motion.div>
 
         <AnimatePresence mode="wait">
           {mode === "verify" ? (
