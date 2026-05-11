@@ -131,7 +131,7 @@ export default function CombinedAuthPage() {
                   <div className="flex justify-between items-center px-1">
                     <label className="text-[11px] font-black uppercase tracking-[0.15em] text-[#2D3436]/60">Gizli Şifre</label>
                     {mode === "login" && (
-                      <Link href="/auth/forgot-password" size="sm" className="text-xs font-bold text-[#C5A059] hover:opacity-70 transition-opacity italic">
+                      <Link href="/auth/forgot-password" className="text-xs font-bold text-[#C5A059] hover:opacity-70 transition-opacity italic">
                         Şifremi Unuttum
                       </Link>
                     )}
